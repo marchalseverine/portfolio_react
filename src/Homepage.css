@@ -1,27 +1,39 @@
 .hero {
   background-color: #f9f7fe;
   text-align: center;
+  font-weight: bold;
 }
-p {
+.hero p {
   font-size: 33px;
 }
 
-h1 {
-  font-size: 44px;
+.hero h1 {
+  font-size: 96px;
+  padding-bottom: 8px;
 }
-h2 {
+.hero h2 {
   font-size: 24px;
+  padding-bottom: 48px;
 }
 
 .contact-btn {
   background-color: #6c61f6;
   border-radius: 4px;
-
+  border: 1px solid #6c61f6;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-}
-a {
-  color: white;
+  font-weight: bold;
+  color: #fff;
   text-decoration: none;
+}
+
+.contact-btn:hover {
+  background-color: #fff;
+  color: #6c61f6;
+  transition: ease-in-out 300ms;
+}
+
+.weather_app_img div {
+  background-color: #f9f7fe;
 }
