@@ -10,9 +10,10 @@ export default function Footer() {
           <a href="mailto:marchalsevi@gmail.com">marchalsevi@gmail.com </a>
         </h3>
       </div>
-      <p className="text-center mt-5">
-        This website was coded by Séverine Marchal, hosted in{" "}
-        <a href="https://www.netlify.com/">Netlify</a> and open source on{" "}
+      <p className="footer-p text-center mt-5">
+        This website was coded by Séverine Marchal
+        <br /> hosted in <a href="https://www.netlify.com/">Netlify</a> and open
+        source on{" "}
         <a href="https://github.com/marchalseverine/portfolio_react">GitHub</a>
       </p>
     </div>

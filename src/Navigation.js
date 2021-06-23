@@ -2,7 +2,7 @@ import React from "react";
 
 const Navigation = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <a className="navbar-brand" href="/Homepage">
           Séverine Marchal

@@ -1,8 +1,35 @@
-@media (min-width: 576px) {
-  p {
-    font-size: 10px !important;
+.inquiry-btn {
+  background-color: #6c61f6;
+  border-radius: 4px;
+  border: 1px solid #6c61f6;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.inquiry-btn:hover {
+  background-color: #fff;
+  color: #6c61f6;
+  transition: ease-in-out 300ms;
+}
+
+.inquiry {
+  background-color: #f9f7fe;
+  text-align: center;
+  margin-top: 20px;
+}
+@media (max-width: 576px) {
+  .inquiry-text-h1 {
+    font-size: 30px !important;
   }
-  h1 {
-    font-size: 10px !important;
+
+  .inquiry-btn {
+    font-size: 15px;
   }
 }

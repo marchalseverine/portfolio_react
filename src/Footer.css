@@ -1,8 +1,13 @@
 a {
-  color: Black;
-  text-decoration: none;
+  color: black;
 }
 
 a:hover {
   color: #6c61f6;
+}
+
+@media (max-width: 576px) {
+  .footer-p p {
+    font-size: 10px !important;
+  }
 }
