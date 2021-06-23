@@ -1,4 +1,5 @@
 import React from "react";
+import "./Inquiry.css";
 
 export default function Inquiry() {
   return (

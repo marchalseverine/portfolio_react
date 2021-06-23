@@ -1,10 +1,14 @@
 import React from "react";
+import "./Footer.css";
 
 export default function Footer() {
   return (
     <div className="footer">
       <div className="mail text-center mt-5">
-        <h3>marchalsevi@gmail.com</h3>
+        <h3>
+          {" "}
+          <a href="mailto:marchalsevi@gmail.com">marchalsevi@gmail.com </a>
+        </h3>
       </div>
       <p className="text-center mt-5">
         This website was coded by Séverine Marchal, hosted in{" "}

@@ -10,6 +10,9 @@ export default function Homepage() {
     <div className="homepage">
       <Hero />
       <div className="works">
+        <p className="text-center mt-3">
+          Check out some of my featured projects below
+        </p>
         <Works />
       </div>
       <Inquiry />
