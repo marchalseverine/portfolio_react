@@ -11,9 +11,9 @@ export default function Works() {
         Check out some of my featured projects below
       </p>
       <WeatherAppJS />
-      <hr />
+
       <WeatherAppReact />
-      <hr />
+
       <DictionaryApp />
     </div>
   );

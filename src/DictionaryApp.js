@@ -10,7 +10,7 @@ export default function DictionaryApp() {
             <img
               src={DictionaryAppImg}
               alt="DictionaryApp"
-              className="img-fluid shadow w-100 d-none d-lg-block"
+              className="img-fluid shadow w-100 d-none d-lg-block mt-5"
             />
           </div>
           <div className="app-text col-lg-6 mt-3">
